@@ -343,6 +343,12 @@ input{
 	margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 415px){
+	.fname {
+		margin-right: 28px;
+	}
+}
+
 .fname {
     padding: 10px 6% 10px 9px;
     margin-right: 45px;
@@ -412,7 +418,7 @@ input{
 	margin-right: 145px;
 }
 
-@media only screen and (max-width: 980px){
+@media only screen and (max-width: 981px){
 	.trademark{
 		margin-right: 7% !important;
 	}
@@ -423,8 +429,16 @@ input{
 
 @media only screen and (min-width: 1024px){
 	.trademark {
-		float: left;
-		margin-right: 66px;
+		margin-right: 8%;
+	}
+	.mr0{
+		margin-right: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 981px){
+	.trademark {
+		margin-right: 7%;
 	}
 	.mr0{
 		margin-right: 0px !important;
