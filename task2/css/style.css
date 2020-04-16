@@ -176,11 +176,24 @@ h2{
 }
 
 .categories {
-    float: left;
-    padding-top: 62px;
+    padding-top: 5%;
     color: #fff;
-    width: 13%;
-    margin-right: 263px;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1020px){
+	.categories {
+		padding-top: 8.5%;
+		margin-right: 1.5%;
+	}
+}
+
+@media only screen and (min-width: 1021px){
+	.categories {
+		padding-top: 7.5%;
+		margin-right: 3.5%;
+	}
 }
 
 .icon p {
@@ -231,9 +244,9 @@ h2{
 	margin-bottom: 98px;
 }
 
-.video img{
-	max-height: 570px;
-	width: 1170px;
+.video img {
+    height: 100%;
+    width: 100%;
 }
 
 .overlay {
@@ -283,10 +296,10 @@ h2{
 	text-align: center;
 }
 
-.testimony{
-	padding-top: 174px;
-	font-size: 36px;
-	padding-bottom: 35px;
+.testimony {
+    padding-top: 154px;
+    font-size: 36px;
+    padding-bottom: 35px;
 }
 
 .name{
@@ -296,12 +309,12 @@ h2{
 
 .client{
 	text-align: center;
-	padding-bottom: 68px;
 }
 
 .company {
-    width: 19.8%;
+    width: 19.5%;
     display: inline-block;
+	padding-bottom: 3%;
 }
 
 .contact{
@@ -318,6 +331,10 @@ h2{
 	margin-bottom: 30px;
 }
 
+input{
+	border: 0;
+}
+
 .titleEmail{
 	margin-bottom: 30px;
 }
@@ -326,22 +343,40 @@ h2{
 	margin-bottom: 30px;
 }
 
-.fname{
-	padding: 10px 50px 10px 9px;
-	margin-right: 30px;
+.fname {
+    padding: 10px 6% 10px 9px;
+    margin-right: 45px;
 }
 
-.email{
-	padding: 10px 50px 10px 9px;
+@media only screen and (max-width: 980px){
+	.titleE {
+		padding: 10px 38.5% 10px 9px !important;
+	}
+	.commentE {
+		padding: 10px 37.5% 15% 9px!important;
+	}
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1280px) {
+	.titleE {
+		padding: 10px 39% 10px 9px!important;
+	}
+	.commentE {
+		padding: 10px 38% 15% 9px!important;
+	}
+}
+
+.email {
+    padding: 10px 6% 10px 9px;
 }
 
 .titleE {
-    padding: 10px 19% 10px 9px;
+    padding: 10px 31.5% 10px 9px;
 }
 
 .commentE {
     width: 23%;
-    padding: 10px 6% 15% 9px;
+    padding: 10px 23% 15% 9px;
 }
 
 .contact button {
@@ -374,16 +409,29 @@ h2{
 
 .trademark{
 	float: left;
+	margin-right: 145px;
+}
+
+@media only screen and (max-width: 980px){
+	.trademark{
+		margin-right: 7% !important;
+	}
+	.mr0{
+		margin-right: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.trademark {
+		float: left;
+		margin-right: 66px;
+	}
+	.mr0{
+		margin-right: 0px !important;
+	}
 }
 
 .trademark ul{
 	list-style-type: none;
 }
 
-.mr245{
-	margin-right: 245px;
-}
-
-.mr145{
-	margin-right: 145px;
-}
