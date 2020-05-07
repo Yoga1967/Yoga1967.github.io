@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;	
+	font-family: Raleway;
+	font-size: 13px;
+}
+
+p{
+	margin: 0;
+}
+
+h1{
+	margin: 0;
+}
+
+.top{
+	background: url("../img/top.png");
+	height: 750px;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+		padding-bottom: 38px;
+		border-bottom: 0.4px solid #fff;
+}
+
+.header img{
+	margin-top: 38px;
+}
+
+.nav{
+	float: right;
+	margin-top: 38px;
+	margin-bottom: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.nav li{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.banner {
+    text-align: center;
+    padding: 0 100px;
+    margin-top: 140px;
+    line-height: 1.1;
+}
+
+.banner h1 {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.sub {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.button{
+	margin: 0 auto;
+	width: 200px;
+	background-color: #e84545;
+	margin-top: 77px;
+}
+
+.button a{
+	text-decoration: none;
+}
+
+.button p{
+	text-transform: uppercase;
+	color: #fff;
+	padding: 18px 0 20px 54px;
+}
+
+.features {
+    height: 692px;
+    text-align: center;
+}
+
+.feat {
+    width: 296px;
+    text-align: center;
+    margin-top: 120px;
+    display: inline-block;
+    margin-right: 95px;
+}
+
+.feat:nth-child(3), .feat:nth-child(6){
+	margin-right: 0px;
+}
+
+.ftop{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	color: #2d3033;
+}
+
+.fbot{
+	color: #6c7279;
+	font-size: 14px;
+}
+
+.works{
+	width: 1900px;
+	margin: 0 auto;
+	height: 700px;
+}
+
+.portf {
+    float: left;
+    position: relative;
+}
+
+.portimg{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.mid {
+  width: 100%;
+  height: 100%;
+  background-color: #e84545;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portf:hover .portimg{
+  opacity: 0.3;
+}
+
+.portf:hover .mid {
+  opacity: 0.5;
+}
+
+.porttop{
+	text-transform: uppercase;
+	font-style: 14px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 155px;
+	margin-bottom: 12px;
+}
+
+.portbot{
+	color: #fff;
+	font-size: 14px;
+}
+
+.team{
+	margin-top: 100px;
+}
+
+.member {
+    width: 270px;
+    display: inline-block;
+    margin-right: 26.7px;
+}
+
+.member:nth-child(4){
+	margin-right: 0px;
+}
+
+.teamtop{
+	font-size: 22px;
+	color: #2d3033;
+	margin-top: 30px;
+}
+
+.teampos{
+	font-size: 13px;
+	color: #e84545;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+.teamdesc{
+	margin-top: 29px;
+	color: #6c7279;
+	font-size: 14px;
+}
+
+.socmed{
+	margin-top: 31px;
+}
+
+.testi{
+	margin-top: 100px;
+	max-width: 50%;
+	float: left;
+	height: 500px;	
+}
+
+.left{
+	background-color: #53354a;
+	width: 100%
+}
+
+.comment{
+	font-family: 'Cardo', serif;
+	font-size: 36px;
+	width: 500px;
+	margin-top: 112px;
+	margin-left: 85px;
+}
+
+.clientname{
+	font-weight: bold;
+	font-size: 13px;
+	margin-left: 85px;
+}
