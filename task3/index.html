@@ -5,6 +5,36 @@
 <title>2181941</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap" rel="stylesheet">
+  <script type="text/javascript">
+  	var slideIndex = 1;
+		testimony(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("testimony");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		}
+  </script>
 </head>
 
 <body>
@@ -173,8 +203,19 @@
 		<img src="img/client.jpg" alt="" width="" height="">
 	</div>
 	<div class="testi left" id="testi">
-		<p class="comment">"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam.."</p>
-		<p class="clientname">Susan Sims, Interaction Designer at XYZ</p>
+		<div class="testimony fade show">
+			<p class="comment">"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam.."</p>
+			<p class="clientname">Susan Sims, Interaction Designer at XYZ</p>
+		</div>
+		<div class="testimony fade">
+			<p class="comment">"wasdsawdasd."</p>
+			<p class="clientname">Susan Sims, Interaction Designer at XYZ</p>
+		</div>
+		<div class="dots">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
 	</div>
 </body>
 </html>
