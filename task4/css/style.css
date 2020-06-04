@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    margin: 0;
+    font-size: 13px;
+    background: grey;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.container{
+  width: 1920px;
+  /*background: red;*/
+}
+
+.wrapper{
+  margin: 0 278px;
+}
+
+.header{
+  background: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.top {
+    padding-bottom: 26.5%;
+}
+
+.logo {
+    padding-top: 35px;
+    padding-left: 15px;
+    float: left;
+}
+
+.nav{
+  padding-top: 41px;
+  float: right;
+}
+
+.headContent{
+  text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: 29.5px;
+    padding-bottom: 45px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: Calibri;
+    font-size: 90px;
+    font-weight: normal;
+    padding-bottom: 21%;
+}
+
+.intro{
+  background: #64726a;
+  height: 445px;
+  color: #fff;
+}
+
+.introText {
+    background: url(../img/intro_bg.jpg);
+    background-repeat: no-repeat;
+    width: 1371px;
+    height: 631px;
+    background-position: 100% 100%;
+    padding-top: 6.5%;
+    margin: 0 auto;
+}
+
+.left {
+    width: 396px;
+    height: 124px;
+    margin-top: 12%;
+    margin-left: 8.5%;
+    float: left;
+}
+
+.introText .left p {
+    font-family: "Californian FB";
+    font-size: 64px;
+}
+
+.left p span{
+  font-style: italic;
+}
+
+.right {
+    width: 192px;
+    height: 30px;
+    float: right;
+    margin-top: 39%;
+    margin-right: 18.5%;
+}
+
+.introText .right p {
+    font-size: 29px;
+    font-weight: normal;
+}
+
+.mainWorks{
+  padding-top: 7.5%;
+}
+
+.work1{
+  width: 802px;
+  height: 300px;
+  float: left;
+  background: #edefee;
+  margin-left: 14.3%;
+}
+
+.work1 .title p{
+  text-transform: uppercase;
+  font-family: "Copperplate Gothic Light";
+  color: #000;
+  font-size: 25px;
+  padding-top: 7%;
+    padding-left: 15%;
+
+}
