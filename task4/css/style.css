@@ -5,7 +5,7 @@ body {
     margin: 0;
     font-size: 13px;
   /*  background: grey;*/
-  width: 1920px;
+  width: auto;
   margin: 0 auto;  
     font-family: "Copperplate Gothic Light";
 }
@@ -19,11 +19,11 @@ h1, h2 {
 }
 
 .container{
-  /*background: red;*/
+  width: auto;
 }
 
 .wrapper{
-  margin: 0 278px;
+  margin: 0 10%;
 }
 
 .header{
