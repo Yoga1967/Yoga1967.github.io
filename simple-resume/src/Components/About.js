@@ -62,7 +62,7 @@ class About extends Component{
 							<p className="text-xl f-w-700 font-color-444444 p-t-20">Mardi Waluya Senior High School</p>
 							<p className="text-sm"><span className="f-w-700 italic font-color-5F5F5F">Cibinong, Bogor</span> • 2011 - 2014</p>
 							<p className="text-xl f-w-700 font-color-444444 p-t-20">Mardi Waluya Junior High School</p>
-							<p className="text-sm"><span className="f-w-700 italic font-color-5F5F5F">Cibinong, Bogor</span> • 2018 - 2011</p>
+							<p className="text-sm"><span className="f-w-700 italic font-color-5F5F5F">Cibinong, Bogor</span> • 2008 - 2011</p>
 						</div>
 					</div>
 					<div class="d-flex flex-items-30 max-w-screen-lg margin-auto border-bottom m-t-30 flex-flow-column-sp">
