@@ -389,6 +389,9 @@ h1{
 	.p-t-15-sp{
 		padding-top: 15px;
 	}
+	.m-t-30-sp{
+		margin-top: 30px
+	}
 
 	.flex-w-100-sp {
 		width: 100%;
@@ -407,6 +410,7 @@ h1{
 	}
 
 	.position-sticky {
+		width: 100%;
 		position: fixed;
 		top: 0;
 		left: 50%;
