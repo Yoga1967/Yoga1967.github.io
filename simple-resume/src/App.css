@@ -378,3 +378,41 @@ h1{
 .bg-171717 {
 	background: #171717;
 }
+
+@media only screen and (max-width: 468px){
+	.m-t-20-sp{
+		margin-top: 20px;
+	}
+	.p-t-30-sp{
+		padding-top: 30px;
+	}
+	.p-t-15-sp{
+		padding-top: 15px;
+	}
+
+	.flex-w-100-sp {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 3rem;
+		line-height: 1;
+	}
+
+	.grid-col-2 {
+		grid-template-columns: 1fr;
+	}
+	.flex-flow-column-sp{
+		flex-flow: column;
+	}
+
+	.position-sticky {
+		position: fixed;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.home {
+		margin-top: 0;
+	}
+}
