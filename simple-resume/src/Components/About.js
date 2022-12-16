@@ -17,7 +17,7 @@ class About extends Component{
 						</div>
 						<div className="f-c-fff">
 							<p className="f-s-24 f-w-700">About Me</p>
-							<p className="p-t-10 line-height-28">Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.</p>
+							<p className="p-t-10 line-height-28">I was born on March 22nd 1996 and now I am 26 years old. I am an honest, hardworking, and reliable worker. I can work well as a team player but did not limit me to work independently. I am responsible for every task and duty to produce the result as needed. I can also determine and make decisions to take direct actions based on current situations. I am willing to develop my knowledge and ability to higher standards. My motto is “hard works never disappoint” and “do my best.”</p>
 							<div className="p-t-10">
 								<div className="">
 									<ul className="d-grid grid-col-2">
