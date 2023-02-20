@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pics-of-the-day/static/css/main.756af292.css",
+    "main.js": "/pics-of-the-day/static/js/main.3f5f6036.js",
+    "static/js/787.3881a4a5.chunk.js": "/pics-of-the-day/static/js/787.3881a4a5.chunk.js",
+    "index.html": "/pics-of-the-day/index.html",
+    "main.756af292.css.map": "/pics-of-the-day/static/css/main.756af292.css.map",
+    "main.3f5f6036.js.map": "/pics-of-the-day/static/js/main.3f5f6036.js.map",
+    "787.3881a4a5.chunk.js.map": "/pics-of-the-day/static/js/787.3881a4a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756af292.css",
+    "static/js/main.3f5f6036.js"
+  ]
+}
