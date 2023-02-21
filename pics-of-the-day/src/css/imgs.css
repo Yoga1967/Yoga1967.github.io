@@ -19,8 +19,10 @@ button.photo-button {
 #todayPhoto{
     width: 100%;
 }
-.btn-primary{
-    
+.btn-primary{    
     --bs-btn-bg: #719192!important;
-    --bs-btn-border-color: #719192!important;;
+    --bs-btn-border-color: #719192!important;
+    --bs-btn-hover-bg: #1a1a1a!important;
+    --bs-btn-hover-border-color: #1a1a1a!important;
 }
+
