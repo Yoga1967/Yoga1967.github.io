@@ -1,12 +1,10 @@
 import React from 'react';
-import '../css/imgs.css'
+import '../css/imgs.css';
+import 'animate.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 var apiKey = "gZw7CA3iEfc0px9LnrcooXXrWHXuZuWjSLfulaye";
@@ -42,7 +40,6 @@ function getTodayAPOD() {
                     document.getElementById("todayPhoto").src = response.hdurl;
                 }
                 else {
-                    var photoUrl = document.getElementById("todayPhoto").src = response.url;
                     document.getElementById("todayPhoto").src = response.url;
                 }
             }
@@ -85,7 +82,7 @@ getTodayAPOD();
 
 function Images() {
     return (
-        <div id="body">
+        <div id="body" className="animate__animated animate__fadeIn">
             <Container>
                 <h1>NASA Astrophotography of The Day</h1>
                 <Row>
@@ -94,15 +91,15 @@ function Images() {
                             <div id="todayPhotoDiv"></div>
                             <Card.Body>
                                 <Card.Title id="todayCaption1">
-                                    <figcaption id="todayCaption1"></figcaption>
+                                    <figcaption></figcaption>
                                 </Card.Title>
                                 <Card.Text className="photo-desc" id="todayCaption3">
-                                    <figcaption id="todayCaption3"></figcaption>
+                                    <figcaption></figcaption>
                                 </Card.Text>
-                                <Card.Subtitle className="mb-2 text-muted" id="todayCaption2">
-                                    <figcaption id="todayCaption2"></figcaption>
+                                <Card.Subtitle className="mb-2" id="todayCaption2">
+                                    <figcaption></figcaption>
                                 </Card.Subtitle>
-                                <Card.Subtitle className="mb-2 text-muted" id="todayCaption2">
+                                <Card.Subtitle className="mb-2" id="todayCaption2">
                                     <figcaption id="todayCaption4"></figcaption>
                                 </Card.Subtitle>
                                 <figcaption id="todayUrl"></figcaption>

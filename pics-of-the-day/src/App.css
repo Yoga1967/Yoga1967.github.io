@@ -1,5 +1,9 @@
+body{
+    --bs-body-color: #dfcdc3;
+}
 .App {
     text-align: center;
     padding: 40px;
     margin: 0 auto;
+    background: #1a1a1a;
 }
