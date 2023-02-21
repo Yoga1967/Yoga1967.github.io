@@ -25,6 +25,7 @@ function getTodayAPOD() {
             document.getElementById("todayCaption2").textContent = "";
             document.getElementById("todayCaption3").textContent = "";
             document.getElementById("todayCaption4").textContent = "";
+            document.getElementById("todayUrl").textContent = "";
 
             /* Clears img or iframe from todayPhotoDiv */
             var todayPhotoDivNode = document.getElementById("todayPhotoDiv");
@@ -56,6 +57,16 @@ function getTodayAPOD() {
             document.getElementById("todayCaption1").textContent = response.title;
             document.getElementById("todayCaption2").textContent = response.date;
             document.getElementById("todayCaption3").textContent = "Explanation: " + response.explanation;
+            var hdurl = response.hdurl;
+
+            var a = document.createElement('a');
+            a.className = "btn btn-primary";
+            var link = document.createTextNode("Click here to open image");
+            a.appendChild(link);
+            a.href=hdurl;
+            a.target = '_blank';
+            document.getElementById("todayUrl").appendChild(a);
+
 
             if (response.hasOwnProperty("copyright")) {
                 document.getElementById("todayCaption4").textContent = "Copyright: " + response.copyright;
@@ -91,13 +102,15 @@ function Images() {
                                 <Card.Subtitle className="mb-2 text-muted" id="todayCaption2">
                                     <figcaption id="todayCaption2"></figcaption>
                                 </Card.Subtitle>
-                                <a href="javascript:void(0)"><Button variant="primary" className="photo-button">Go somewhere</Button></a>
+                                <Card.Subtitle className="mb-2 text-muted" id="todayCaption2">
+                                    <figcaption id="todayCaption4"></figcaption>
+                                </Card.Subtitle>
+                                <figcaption id="todayUrl"></figcaption>
                             </Card.Body>
                         </Card>
                     </Col>
                 </Row>
             </Container>
-            <figcaption id="todayCaption4"></figcaption>
         </div>
     )
 }
