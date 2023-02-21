@@ -90,18 +90,11 @@ function Images() {
                         <Card>
                             <div id="todayPhotoDiv"></div>
                             <Card.Body>
-                                <Card.Title id="todayCaption1">
-                                    <figcaption></figcaption>
-                                </Card.Title>
-                                <Card.Text className="photo-desc" id="todayCaption3">
-                                    <figcaption></figcaption>
-                                </Card.Text>
-                                <Card.Subtitle className="mb-2" id="todayCaption2">
-                                    <figcaption></figcaption>
-                                </Card.Subtitle>
-                                <Card.Subtitle className="mb-2" id="todayCaption2">
-                                    <figcaption id="todayCaption4"></figcaption>
-                                </Card.Subtitle>
+                                <Card.Title id="todayCaption1"></Card.Title>
+                                <Card.Text className="photo-desc" id="todayCaption3"></Card.Text>
+                                <Card.Subtitle className="mb-2" id="todayCaption2"></Card.Subtitle>
+                                <Card.Subtitle className="mb-2" id="todayCaption2"></Card.Subtitle>
+                                <Card.Subtitle className="mb-2" id="todayCaption4"></Card.Subtitle>
                                 <figcaption id="todayUrl"></figcaption>
                             </Card.Body>
                         </Card>
