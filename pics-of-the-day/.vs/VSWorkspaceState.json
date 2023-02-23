@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\img",
+    "\\src\\css"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\css",
   "PreviewInSolutionExplorer": false
 }
