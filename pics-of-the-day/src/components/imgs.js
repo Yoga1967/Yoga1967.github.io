@@ -82,7 +82,7 @@ getTodayAPOD();
 
 function Images() {
     return (
-        <div id="body" className="animate__animated animate__fadeInUp">
+        <div id="body" className="animate__animated animate__fadeIn">
             <Container>
                 <h1>NASA Astrophotography of The Day</h1>
                 <Row>
